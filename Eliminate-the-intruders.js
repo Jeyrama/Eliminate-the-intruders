@@ -12,3 +12,6 @@ eliminateUnsetBits("111") ->  7
 eliminateUnsetBits("1000000") -> 1
 eliminateUnsetBits("000") -> 0
 */
+
+
+// Solution
