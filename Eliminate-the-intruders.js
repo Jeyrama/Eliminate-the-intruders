@@ -21,3 +21,19 @@ function eliminateUnsetBits(number) {
 }
 
 // or
+
+function eliminateUnsetBits(number) {
+  let arr=[];
+ for (let i=0;i<number.length;i++){
+   if(number[i]==="1"){
+   arr.push(number[i])
+    }
+   }
+  let res = arr.join("")
+  let a = parseInt(res, 2);
+  if(a>0){
+  return a;
+  } else{
+    return 0;
+  }
+}
